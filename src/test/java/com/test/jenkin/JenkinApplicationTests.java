@@ -16,6 +16,8 @@ class JenkinApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("test case executing");
+
+		logger.info("test case executing second commit");
 		Assertions.assertTrue(true);
 
 	}
